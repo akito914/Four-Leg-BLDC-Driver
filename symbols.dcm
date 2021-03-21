@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32G474RET6
+F http://uk.rs-online.com/web/p/products/1939860
+$ENDCMP
+#
+$CMP TLP2366
+D 20-Mbps low-power non inverting photocouple,5 kVrms, 2.7 to 5.5 Vdd, push-pull output, SO-6
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=53548&prodName=TLP2770
+$ENDCMP
+#
+#End Doc Library
