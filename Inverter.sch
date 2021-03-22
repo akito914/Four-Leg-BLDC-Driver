@@ -2638,6 +2638,34 @@ F 3 "~" H 10900 9500 50  0001 C CNN
 	1    10900 9500
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3750 4000 4300 4000
+Wire Wire Line
+	4300 4000 4300 3700
+Wire Wire Line
+	4300 3700 4500 3700
+Connection ~ 3750 4000
+Wire Wire Line
+	6800 4000 7350 4000
+Wire Wire Line
+	7350 4000 7350 3700
+Wire Wire Line
+	7350 3700 7550 3700
+Wire Wire Line
+	9850 4000 10400 4000
+Wire Wire Line
+	10400 4000 10400 3700
+Wire Wire Line
+	10400 3700 10600 3700
+Wire Wire Line
+	12900 4000 13450 4000
+Wire Wire Line
+	13450 4000 13450 3700
+Wire Wire Line
+	13450 3700 13650 3700
+Connection ~ 12900 4000
+Connection ~ 9850 4000
+Connection ~ 6800 4000
 Wire Bus Line
 	11550 4000 11550 7450
 Wire Bus Line

@@ -805,6 +805,7 @@ $EndComp
 Connection ~ 13000 3500
 Wire Wire Line
 	13000 2900 13000 3000
+Connection ~ 13000 3000
 Wire Bus Line
 	6550 5750 6550 5950
 Wire Bus Line
@@ -829,5 +830,4 @@ Wire Bus Line
 	6550 4400 6550 5000
 Wire Bus Line
 	6550 6150 6550 6750
-Connection ~ 13000 3000
 $EndSCHEMATC
