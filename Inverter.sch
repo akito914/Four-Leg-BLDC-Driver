@@ -757,11 +757,7 @@ $EndComp
 Wire Wire Line
 	4950 3000 4500 3000
 Wire Wire Line
-	4950 3750 4950 3000
-Wire Wire Line
 	4950 4750 4500 4750
-Wire Wire Line
-	4950 3950 4950 4750
 Wire Wire Line
 	4500 4450 4500 4300
 Connection ~ 4500 4450
@@ -862,17 +858,6 @@ Wire Wire Line
 	2900 3500 2900 3600
 Wire Wire Line
 	3050 3500 2900 3500
-$Comp
-L Device:C_Small C7
-U 1 1 606EAE5C
-P 4950 3850
-F 0 "C7" H 5042 3896 50  0000 L CNN
-F 1 "1uF/50V" H 5042 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4950 3850 50  0001 C CNN
-F 3 "~" H 4950 3850 50  0001 C CNN
-	1    4950 3850
-	1    0    0    -1  
-$EndComp
 $Comp
 L symbols:NTMFS5C670NL Q2
 U 1 1 606EAE62
@@ -1015,10 +1000,6 @@ F 3 "" H 5950 4250 50  0001 C CNN
 	1    5950 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 3000 7550 3000
-Wire Wire Line
-	8000 3750 8000 3000
 Wire Wire Line
 	7550 4450 7550 4300
 Connection ~ 7550 4450
@@ -1272,10 +1253,6 @@ F 3 "" H 9000 4250 50  0001 C CNN
 	1    9000 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11050 3000 10600 3000
-Wire Wire Line
-	11050 3750 11050 3000
 Wire Wire Line
 	10600 4450 10600 4300
 Connection ~ 10600 4450
@@ -1585,10 +1562,6 @@ F 3 "" H 12050 4250 50  0001 C CNN
 	1    12050 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14100 3000 13650 3000
-Wire Wire Line
-	14100 3750 14100 3000
 Wire Wire Line
 	13650 4450 13650 4300
 Connection ~ 13650 4450
@@ -2650,18 +2623,129 @@ Wire Wire Line
 Connection ~ 12900 4000
 Connection ~ 9850 4000
 Connection ~ 6800 4000
+$Comp
+L Device:C_Small C50
+U 1 1 609310E4
+P 5050 3650
+F 0 "C50" H 5142 3696 50  0000 L CNN
+F 1 "1uF/50V" H 5142 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5050 3650 50  0001 C CNN
+F 3 "~" H 5050 3650 50  0001 C CNN
+	1    5050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4750 4950 4750
+Wire Wire Line
+	5050 3750 5050 4750
+Connection ~ 4950 4750
+Wire Wire Line
+	5050 3550 5050 3000
+Wire Wire Line
+	5050 3000 4950 3000
+Connection ~ 4950 3000
+Wire Wire Line
+	8100 3550 8100 3000
+$Comp
+L Device:C_Small C51
+U 1 1 609E1815
+P 8100 3650
+F 0 "C51" H 8192 3696 50  0000 L CNN
+F 1 "1uF/50V" H 8192 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8100 3650 50  0001 C CNN
+F 3 "~" H 8100 3650 50  0001 C CNN
+	1    8100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3750 8100 4750
+Wire Wire Line
+	8000 3000 7550 3000
+Wire Wire Line
+	8000 3750 8000 3000
+Wire Wire Line
+	8100 3000 8000 3000
+Connection ~ 8000 3000
 Wire Wire Line
 	7550 4750 8000 4750
 Wire Wire Line
 	8000 3950 8000 4750
 Wire Wire Line
+	8100 4750 8000 4750
+Connection ~ 8000 4750
+Wire Wire Line
+	11150 3550 11150 3000
+$Comp
+L Device:C_Small C52
+U 1 1 60ABFB83
+P 11150 3650
+F 0 "C52" H 11242 3696 50  0000 L CNN
+F 1 "1uF/50V" H 11242 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11150 3650 50  0001 C CNN
+F 3 "~" H 11150 3650 50  0001 C CNN
+	1    11150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 3750 11150 4750
+Wire Wire Line
+	11050 3000 10600 3000
+Wire Wire Line
+	11050 3750 11050 3000
+Wire Wire Line
+	11150 3000 11050 3000
+Connection ~ 11050 3000
+Wire Wire Line
 	11050 4750 10600 4750
 Wire Wire Line
 	11050 3950 11050 4750
 Wire Wire Line
+	11150 4750 11050 4750
+Connection ~ 11050 4750
+Wire Wire Line
+	14200 3550 14200 3000
+$Comp
+L Device:C_Small C53
+U 1 1 60BA2636
+P 14200 3650
+F 0 "C53" H 14292 3696 50  0000 L CNN
+F 1 "1uF/50V" H 14292 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14200 3650 50  0001 C CNN
+F 3 "~" H 14200 3650 50  0001 C CNN
+	1    14200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 3750 14200 4750
+Wire Wire Line
+	14100 3000 13650 3000
+Wire Wire Line
+	14100 3750 14100 3000
+Wire Wire Line
+	14200 3000 14100 3000
+Connection ~ 14100 3000
+Wire Wire Line
 	14100 4750 13650 4750
 Wire Wire Line
 	14100 3950 14100 4750
+Wire Wire Line
+	14200 4750 14100 4750
+Connection ~ 14100 4750
+$Comp
+L Device:C_Small C7
+U 1 1 606EAE5C
+P 4950 3900
+F 0 "C7" H 5042 3946 50  0000 L CNN
+F 1 "1uF/50V" H 5042 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4950 3900 50  0001 C CNN
+F 3 "~" H 4950 3900 50  0001 C CNN
+	1    4950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3800 4950 3000
+Wire Wire Line
+	4950 4000 4950 4750
 Wire Bus Line
 	11550 4000 11550 7450
 Wire Bus Line
