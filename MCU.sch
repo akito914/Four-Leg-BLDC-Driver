@@ -465,8 +465,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 3550 2850 3550
 Wire Wire Line
-	2850 3550 2850 3450
-Connection ~ 2850 3450
+	2850 3650 2850 3550
 Wire Wire Line
 	3900 3150 2750 3150
 Wire Wire Line
@@ -1502,6 +1501,19 @@ F 2 "" H 11200 6600 50  0001 C CNN
 F 3 "" H 11200 6600 50  0001 C CNN
 	1    11200 6600
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60CCC792
+P 2850 3650
+AR Path="/60CCC792" Ref="#PWR?"  Part="1" 
+AR Path="/607D8C01/60CCC792" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 3400 50  0001 C CNN
+F 1 "GNDD" H 2854 3495 50  0000 C CNN
+F 2 "" H 2850 3650 50  0001 C CNN
+F 3 "" H 2850 3650 50  0001 C CNN
+	1    2850 3650
+	-1   0    0    -1  
 $EndComp
 Wire Bus Line
 	7950 5500 7950 6900
